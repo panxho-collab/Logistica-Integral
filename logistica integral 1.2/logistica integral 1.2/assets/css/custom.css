@@ -1,0 +1,79 @@
+/* -- Css Personalizado -- */
+
+/* CARDS */
+/* Fondo y estilo por defecto */
+.services-icon-wap {
+    background-color: #ffffff; /* Fondo inicial blanco */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+    transition: all 0.3s ease;
+}
+
+/* Icono por defecto */
+.services-icon-wap i {
+    color: #10154A; /* Verde inicial */
+    transition: color 0.3s ease;
+}
+
+/* Texto por defecto */
+.services-icon-wap h2 {
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+/* Efecto al pasar el cursor */
+.services-icon-wap:hover {
+    background-color: #10154A; /* Fondo verde en hover */
+    transform: scale(1.05); /* Crece ligeramente */
+}
+
+/* Icono y texto cambian a blanco en hover */
+.services-icon-wap:hover i,
+.services-icon-wap:hover h2 {
+    color: #ffffff;
+}
+
+/* NAVBAR TOP */
+.icon-circle {
+  background-color: #3a2a23; /* o un tono similar al de la imagen */
+  color: orange; /* color del ícono */
+  padding: 8px;
+  border-radius: 50%;
+  width: 20px;               /* ancho del círculo */
+  height: 20px;  
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-carousel {
+  font-size: 10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav#templatemo_nav_top small {
+  font-size: 11px;
+  color: #bbb;
+}
+
+nav#templatemo_nav_top a {
+  font-weight: 500;
+}
+
+nav#templatemo_nav_top {
+  font-size: 14px;
+}
+
+/* Iconos de contacto */
+.icon-circle {
+    background-color: #cc6600; /* Naranja */
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
