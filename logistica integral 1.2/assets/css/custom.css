@@ -46,6 +46,35 @@
   justify-content: center;
 }
 
+a i {
+  font-size: 15px;  /* tamaño de íconos */
+  transition: color 0.3s ease;
+}
+
+a:hover i {
+  color: #0d6efd; /* azul al pasar el cursor */
+}
+
+.social-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;         /* círculo */
+  background-color: white;  /* color de fondo (oscuro en este caso) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;                /* color del icono */
+  font-size: 18px;            /* tamaño del icono */
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.social-circle:hover {
+  background-color: white;  /* cambia color del círculo al pasar el mouse */
+  color: white;                /* asegura que el ícono se mantenga visible */
+}
+
+
 .texto-carousel {
   font-size: 10px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
