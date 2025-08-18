@@ -70,13 +70,15 @@
     >
       <div class="container col-12">
         <!-- Logo -->
-        <a class="navbar-brand" href="#">
-          <img
-            src="./logistica integral 1.2/assets/img/LogoPrincipal..png"
-            alt="Logo"
-            height="190"
-          />
-        </a>
+      <a class="navbar-brand d-flex align-items-center" href="./index.html">
+        <img
+          src="./logistica integral 1.2/assets/img/LogoPrincipal..png"
+          alt="Logo"
+          height="190"
+          class="logo-img"
+          style="object-fit: contain;"
+        />
+      </a>
 
         <!-- Botón hamburguesa para móviles -->
         <button
@@ -111,12 +113,12 @@
                   class="d-flex flex-column align-items-start mx-1 text-start"
                 >
                   <div class="ms-2">
-                    <small>Correo electrónico</small><br />
+                    <small class="text-muted fw-bold">Correo electrónico</small><br />
                     <a
                       class="text-dark fw-bold"
                       style="font-size: 1em"
-                      href="mailto:info@unionlatincargo.com"
-                      >info@unionlatincargo.com</a
+                      href="mailto:fransiscojoelr@gmail.com"
+                      >info@logisticaintegralcom</a
                     >
                   </div>
                 </div>
@@ -129,12 +131,12 @@
                   class="d-flex flex-column align-items-start mx-1 text-start"
                 >
                   <div class="ms-2">
-                    <small>WhatsApp</small><br />
+                    <small class="text-muted fw-bold">WhatsApp</small><br />
                     <a
                       class="text-dark fw-bold"
                       style="font-size: 1em"
-                      href="https://wa.me/50431838093"
-                      >(+504)3183-8093</a
+                      href="https://wa.me/50494529572"
+                      >(+504)9999-9999</a
                     >
                   </div>
                 </div>
@@ -147,12 +149,12 @@
                   class="d-flex flex-column align-items-start mx-1 text-start"
                 >
                   <div class="ms-2">
-                    <small>PBX</small><br />
+                    <small class="text-muted fw-bold">PBX</small><br />
                     <a
                       class="text-dark fw-bold"
                       style="font-size: 1em"
-                      href="tel:+50422333340"
-                      >(+504) 2233-3340</a
+                      href="tel:+50494529572"
+                      >(+504) 2662-2662</a
                     >
                   </div>
                 </div>
@@ -246,6 +248,18 @@
 
         /* Estilos para móviles */
         @media (max-width: 991.98px) {
+          .navbar-brand .logo-img {
+          height: 100px !important;
+          width: auto !important;
+          margin-left: 0 !important;
+          margin-right: 0 !important;
+          display: block;
+        }
+        .navbar-brand {
+          padding-left: 0 !important;
+          margin-right: 0 !important;
+          justify-content: flex-start !important;
+        }
           .navbar-collapse {
             background-color: white;
             padding: 1rem;
@@ -317,66 +331,66 @@
       data-bs-ride="carousel"
     >
       <ol class="carousel-indicators">
-        <li
-          data-bs-target="#template-mo-zay-hero-carousel"
-          data-bs-slide-to="0"
-          class="active"
-        ></li>
-        <li
-          data-bs-target="#template-mo-zay-hero-carousel"
-          data-bs-slide-to="1"
-        ></li>
-        <li
-          data-bs-target="#template-mo-zay-hero-carousel"
-          data-bs-slide-to="2"
-        ></li>
+      <li
+        data-bs-target="#template-mo-zay-hero-carousel"
+        data-bs-slide-to="0"
+        class="active"
+      ></li>
+      <li
+        data-bs-target="#template-mo-zay-hero-carousel"
+        data-bs-slide-to="1"
+      ></li>
+      <li
+        data-bs-target="#template-mo-zay-hero-carousel"
+        data-bs-slide-to="2"
+      ></li>
       </ol>
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="container">
-            <div class="row p-5">
-              <div class="mx-auto col-md-8 col-lg-4 order-lg-last">
-                <img
-                  class="img-fluid"
-                  src="./logistica integral 1.2/assets/img/banner_img_01.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="col-lg-8 col-sm-12 mb-0 d-flex align-items-center">
-                <div class="text-align-left align-self-center">
-                  <h1 class="h1 text-success"><b>Logistica</b> Integral</h1>
-                  <p
-                    class="texto-carousel"
-                    style="text-align: justify; font-size: 12px"
-                  >
-                    Somos una empresa hondureña, respaldada por experiencia
-                    comprobada en transporte y logística a nivel nacional e
-                    internacional. Nacimos con una visión clara: ser un socio
-                    estratégico para nuestros clientes, integrando cada eslabón
-                    de la cadena de suministro y garantizando soluciones que
-                    superen las expectativas.
-                  </p>
-                  <a href="acerca.html"
-                    ><button
-                      type="button"
-                      class="btn btn-outline-success"
-                      style="border: 2%; margin-bottom: 25px"
-                    >
-                      Más de Nosotros
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
+      <div class="carousel-item active">
+        <div class="container">
+        <div class="row p-5">
+          <div class="mx-auto col-md-8 col-lg-4 order-lg-last">
+          <img
+            class="img-fluid carousel-animated-img"
+            src="./logistica integral 1.2/assets/img/lologisticagistics-delivery.png"
+            alt=""
+          />
+          </div>
+          <div class="col-lg-8 col-sm-12 mb-0 d-flex align-items-center">
+          <div class="text-align-left align-self-center">
+            <h1 class="h1 text-success"><b>Logistica</b> Integral</h1>
+            <p
+            class="texto-carousel"
+            style="text-align: justify; font-size: 12px"
+            >
+            Somos una empresa hondureña, respaldada por experiencia
+            comprobada en transporte y logística a nivel nacional e
+            internacional. Nacimos con una visión clara: ser un socio
+            estratégico para nuestros clientes, integrando cada eslabón
+            de la cadena de suministro y garantizando soluciones que
+            superen las expectativas.
+            </p>
+            <a href="./logistica integral 1.2/acerca.html"
+            ><button
+              type="button"
+              class="btn btn-outline-success"
+              style="border: 2%; margin-bottom: 25px"
+            >
+              Más de Nosotros
+            </button>
+            </a>
+          </div>
           </div>
         </div>
-        <div class="carousel-item">
+        </div>
+      </div>
+      <div class="carousel-item">
           <div class="container">
             <div class="row p-5">
               <div class="mx-auto col-md-8 col-lg-4 order-lg-last">
                 <img
                   class="img-fluid"
-                  src="./logistica integral 1.2/assets/img/banner_img_01.jpg"
+                  src="./logistica integral 1.2/assets/img/servicios.png"
                   alt=""
                 />
               </div>
@@ -394,7 +408,7 @@
                     de la cadena de suministro y garantizando soluciones que
                     superen las expectativas.
                   </p>
-                  <a href="acerca.html"
+                  <a href="./logistica integral 1.2/servicios.html"
                     ><button
                       type="button"
                       class="btn btn-outline-success"
@@ -410,17 +424,17 @@
         </div>
         <div class="carousel-item">
           <div class="container">
-            <div class="row p-5">
-              <div class="mx-auto col-md-8 col-lg-4 order-lg-last">
+            <div class="row p-5 flex-column flex-lg-row">
+              <div class="mx-auto col-md-8 col-lg-4 order-lg-last d-flex justify-content-center mb-4 mb-lg-0">
                 <img
                   class="img-fluid"
-                  src="./logistica integral 1.2/assets/img/banner_img_01.jpg"
+                  src="./logistica integral 1.2/assets/img/valoraciones.png"
                   alt=""
                 />
               </div>
               <div class="col-lg-8 col-sm-12 mb-0 d-flex align-items-center">
                 <div class="text-align-left align-self-center">
-                  <h1 class="h1 text-success"><b>Logisticas</b> Integral</h1>
+                  <h1 class="h1 text-success"><b>Valoraciones</b></h1>
                   <p
                     class="texto-carousel"
                     style="text-align: justify; font-size: 12px"
@@ -432,8 +446,8 @@
                     de la cadena de suministro y garantizando soluciones que
                     superen las expectativas.
                   </p>
-                  <a href="acerca.html"
-                    ><button
+                  <a href="#">
+                    <button
                       type="button"
                       class="btn btn-outline-success"
                       style="border: 2%; margin-bottom: 25px"
@@ -444,6 +458,16 @@
                 </div>
               </div>
             </div>
+            <!-- <style>
+              @media (max-width: 991.98px) {
+                #template-mo-zay-hero-carousel .row.flex-lg-row {
+                  flex-direction: column !important;
+                }
+                #template-mo-zay-hero-carousel .order-lg-last {
+                  order: 0 !important;
+                }
+              }
+            </style> -->
           </div>
         </div>
       </div>
@@ -466,453 +490,6 @@
     </div>
     <!-- Fin Carousel -->
 
-    <!-- Start Featured Product -->
-    <section class="bg-white">
-      <div class="container py-5">
-        <div class="row">
-          <div class="col-12 col-md-4 mb-4">
-            <!-- Card de Transporte Terrestre -->
-            <div
-              class="card h-100"
-              style="
-                border-top: white;
-                border-right: white;
-                border-left: white;
-                border-radius: 0%;
-              "
-            >
-              <div
-                class="card-header mb-4 d-flex justify-content-center align-items-center"
-                style="
-                  height: 80px;
-                  background-color: white;
-                  border-color: white;
-                "
-              >
-                <span
-                  style="
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 80px;
-                    height: 80px;
-                    border-radius: 50%;
-                    background-color: #f0f0f0;
-                  "
-                >
-                  <i
-                    class="fas fa-truck"
-                    style="font-size: 2rem; color: #cc6600"
-                  ></i>
-                </span>
-              </div>
-              <a href="">
-                <img
-                  src="./logistica integral 1.2/assets/img/transporteterrestre.jpeg"
-                  class="card-img-top"
-                  style="background-color: gray"
-                  alt="..."
-                />
-              </a>
-              <div class="card-body">
-                <a href="" class="h2 text-decoration-none text-dark"
-                  >Trasporte Terrestre</a
-                >
-                <p class="card-text mt-3">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Perferendis impedit optio commodi molestias
-                </p>
-                <!-- Button trigger modal -->
-                <button
-                  type="button"
-                  class="btn btn-primary"
-                  data-toggle="modal"
-                  data-target="#exampleModalCenter"
-                >
-                  Ver más...
-                </button>
-
-                <!-- Modal Terrestre -->
-                <div
-                  class="modal fade"
-                  id="exampleModalCenter"
-                  tabindex="-1"
-                  role="dialog"
-                  aria-labelledby="exampleModalCenterTitle"
-                  aria-hidden="true"
-                >
-                  <div
-                    class="modal-dialog modal-dialog-centered"
-                    role="document"
-                  >
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">
-                          Tituloooo
-                        </h5>
-                        <button
-                          type="button"
-                          class="close"
-                          data-dismiss="modal"
-                          aria-label="Close"
-                        >
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body" style="text-align: justify">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Pariatur ratione architecto cupiditate, tempore
-                        repudiandae magni sed! Sit quibusdam dolor quam maxime
-                        culpa deleniti vitae id? Autem tenetur quibusdam libero
-                        qui.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="modal fade"
-                  id="exampleModalCenter"
-                  data-backdrop="false"
-                  tabindex="-1"
-                  role="dialog"
-                  aria-labelledby="exampleModalCenterTitle"
-                  aria-hidden="true"
-                >
-                  <div
-                    class="modal-dialog modal-dialog-centered"
-                    role="document"
-                  >
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">
-                          Titulo
-                        </h5>
-                        <button
-                          type="button"
-                          class="close"
-                          data-dismiss="modal"
-                          aria-label="Close"
-                        >
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">...</div>
-                      <div class="modal-footer">
-                        <button
-                          type="button"
-                          class="btn btn-danger"
-                          data-dismiss="modal"
-                        >
-                          Cerrar
-                        </button>
-                        <button type="button" class="btn btn-primary">
-                          Boton Secundario
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Fin Card de Transporte Terrestre -->
-          </div>
-          <div class="col-12 col-md-4 mb-4">
-            <!-- Card de Transporte Marítimo -->
-            <div
-              class="card h-100"
-              style="
-                border-top: white;
-                border-right: white;
-                border-left: white;
-                border-radius: 0%;
-              "
-            >
-              <div
-                class="card-header mb-4 d-flex justify-content-center align-items-center"
-                style="
-                  height: 80px;
-                  background-color: white;
-                  border-color: white;
-                "
-              >
-                <span
-                  style="
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 80px;
-                    height: 80px;
-                    border-radius: 50%;
-                    background-color: #f0f0f0;
-                  "
-                >
-                  <i
-                    class="fas fa-ship"
-                    style="font-size: 2rem; color: #cc6600"
-                  ></i>
-                </span>
-              </div>
-              <a href="">
-                <img
-                  src="./logistica integral 1.2/assets/img/transportemaritimo.jpg"
-                  class="card-img-top"
-                  style="background-color: gray"
-                  alt="..."
-                />
-              </a>
-              <div class="card-body">
-                <a href="" class="h2 text-decoration-none text-dark"
-                  >Transporte Marítimo</a
-                >
-                <p class="card-text mt-3">
-                  Aenean gravida dignissim finibus. Nullam ipsum diam, posuere
-                  vitae pharetra sed, commodo ullamcorper.
-                </p>
-                <!-- Button trigger modal -->
-                <button
-                  type="button"
-                  class="btn btn-primary"
-                  data-toggle="modal"
-                  data-target="#ModalMaritimo"
-                >
-                  Ver más...
-                </button>
-
-                <!-- Modal Marítimo -->
-                <div
-                  class="modal fade"
-                  id="ModalMaritimo"
-                  tabindex="-1"
-                  role="dialog"
-                  aria-labelledby="exampleModalCenterTitle"
-                  aria-hidden="true"
-                >
-                  <div
-                    class="modal-dialog modal-dialog-centered"
-                    role="document"
-                  >
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">
-                          Tituloooo
-                        </h5>
-                        <button
-                          type="button"
-                          class="close"
-                          data-dismiss="modal"
-                          aria-label="Close"
-                        >
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body" style="text-align: justify">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Pariatur ratione architecto cupiditate, tempore
-                        repudiandae magni sed! Sit quibusdam dolor quam maxime
-                        culpa deleniti vitae id? Autem tenetur quibusdam libero
-                        qui. H
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="modal fade"
-                  id="exampleModalCenter"
-                  data-backdrop="false"
-                  tabindex="-1"
-                  role="dialog"
-                  aria-labelledby="exampleModalCenterTitle"
-                  aria-hidden="true"
-                >
-                  <div
-                    class="modal-dialog modal-dialog-centered"
-                    role="document"
-                  >
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">
-                          Titulo
-                        </h5>
-                        <button
-                          type="button"
-                          class="close"
-                          data-dismiss="modal"
-                          aria-label="Close"
-                        >
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">...</div>
-                      <div class="modal-footer">
-                        <button
-                          type="button"
-                          class="btn btn-danger"
-                          data-dismiss="modal"
-                        >
-                          Cerrar
-                        </button>
-                        <button type="button" class="btn btn-primary">
-                          Boton Secundario
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 mb-4">
-            <!-- Card de Transporte Aéreo -->
-            <div
-              class="card h-100"
-              style="
-                border-top: white;
-                border-right: white;
-                border-left: white;
-                border-radius: 0%;
-              "
-            >
-              <div
-                class="card-header mb-4 d-flex justify-content-center align-items-center"
-                style="
-                  height: 80px;
-                  background-color: white;
-                  border-color: white;
-                "
-              >
-                <span
-                  style="
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 80px;
-                    height: 80px;
-                    border-radius: 50%;
-                    background-color: #f0f0f0;
-                  "
-                >
-                  <i
-                    class="fas fa-plane"
-                    style="font-size: 2rem; color: #cc6600"
-                  ></i>
-                </span>
-              </div>
-              <a href="">
-                <img
-                  src="./logistica integral 1.2/assets/img/transporteaereo.jpg"
-                  class="card-img-top"
-                  style="background-color: gray"
-                  alt="..."
-                />
-              </a>
-              <div class="card-body">
-                <a
-                  href="shop-single.html"
-                  class="h2 text-decoration-none text-dark"
-                  >Transporte Aéreo</a
-                >
-                <p class="card-text mt-3">
-                  Curabitur ac mi sit amet diam luctus porta. Phasellus pulvinar
-                  sagittis diam, et scelerisque ipsum lobortis nec.
-                </p>
-                <!-- Button trigger modal -->
-                <button
-                  type="button"
-                  class="btn btn-primary"
-                  data-toggle="modal"
-                  data-target="#ModalAereo"
-                >
-                  Ver más...
-                </button>
-
-                <!-- Modal Aereo -->
-                <div
-                  class="modal fade"
-                  id="ModalAereo"
-                  tabindex="-1"
-                  role="dialog"
-                  aria-labelledby="exampleModalCenterTitle"
-                  aria-hidden="true"
-                >
-                  <div
-                    class="modal-dialog modal-dialog-centered"
-                    role="document"
-                  >
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">
-                          Tituloooo
-                        </h5>
-                        <button
-                          type="button"
-                          class="close"
-                          data-dismiss="modal"
-                          aria-label="Close"
-                        >
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body" style="text-align: justify">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Pariatur ratione architecto cupiditate, tempore
-                        repudiandae magni sed! Sit quibusdam dolor quam maxime
-                        culpa deleniti vitae id? Autem tenetur quibusdam libero
-                        qui. H H
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="modal fade"
-                  id="exampleModalCenter"
-                  data-backdrop="false"
-                  tabindex="-1"
-                  role="dialog"
-                  aria-labelledby="exampleModalCenterTitle"
-                  aria-hidden="true"
-                >
-                  <div
-                    class="modal-dialog modal-dialog-centered"
-                    role="document"
-                  >
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">
-                          Titulo
-                        </h5>
-                        <button
-                          type="button"
-                          class="close"
-                          data-dismiss="modal"
-                          aria-label="Close"
-                        >
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">...</div>
-                      <div class="modal-footer">
-                        <button
-                          type="button"
-                          class="btn btn-danger"
-                          data-dismiss="modal"
-                        >
-                          Cerrar
-                        </button>
-                        <button type="button" class="btn btn-primary">
-                          Boton Secundario
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Featured Product -->
-
     <!-- Inicio del formulario de servicios -->
 
     <section class="bg-dark">
@@ -921,31 +498,31 @@
         <p class="text-light mb-4">Por favor completa el siguiente formulario para solicitar información o cotización sobre nuestros servicios logísticos.</p>
         <form
           class="row g-3"
-          action="https://formspree.io/f/xeozdyqr"
+          action="https://formspree.io/f/mldlvqdn"
           method="POST"
         >
           <div class="col-sm-12 col-md-4">
-            <label for="inputNombre" class="form-label">Nombre</label>
+            <label for="inputNombre" class="form-label text-light fw-bold">Nombre</label>
             <input
               type="text"
               class="form-control"
               id="inputNombre"
-              name="nombre"
+              name="NOMBRE"
               required
             />
           </div>
           <div class="col-sm-12 col-md-4">
-            <label for="inputTelefono" class="form-label">Teléfono</label>
+            <label for="inputTelefono" class="form-label text-light fw-bold">Teléfono</label>
             <input
               type="text"
               class="form-control"
               id="inputTelefono"
-              name="telefono"
+              name="TELÉFONO"
               required
             />
           </div>
           <div class="col-sm-12 col-md-4">
-            <label for="inputCorreo" class="form-label"
+            <label for="inputCorreo" class="form-label text-light fw-bold"
               >Correo electrónico</label
             >
             <input
@@ -953,18 +530,18 @@
               class="form-control"
               id="inputCorreo"
               placeholder="@gmail.com"
-              name="correo"
+              name="CORREO"
               required
             />
           </div>
           <div class="col-md-6">
-            <label for="inputDepartamento" class="form-label"
+            <label for="inputDepartamento" class="form-label text-light fw-bold"
               >Departamento</label
             >
             <select
               id="inputDepartamento"
               class="form-control"
-              name="departamento"
+              name="DEPARTAMENTO"
               required
             >
               <option value="">Seleccione un departamento...</option>
@@ -972,19 +549,31 @@
             </select>
           </div>
           <div class="col-md-6">
-            <label for="inputMunicipio" class="form-label">Municipio</label>
+            <label for="inputMunicipio" class="form-label text-light fw-bold">Municipio</label>
             <select
               id="inputMunicipio"
               class="form-control"
               disabled
-              name="municipio"
+              name="MUNICIPIO"
               required
             >
               <option value="">Seleccione un municipio...</option>
               <!-- Los municipios se llenarán con JS -->
             </select>
           </div>
+
+          <div class="col-md-4">
+            <label for="inputTipoServicio" class="form-label text-light fw-bold">Tipo de Servicio</label>
+            <select
+              id="inputTipoServicio"
+              class="form-control"
+              name="TIPO DE SERVICIO"
+              required>
+              <option value="">Seleccione un servicio...</option>
+            </select>
+          </div>   
           <script>
+            const opciones = ["Terrestre", "Marítimo", "Aéreo", "Otro"];
             const departamentos = {
               Atlántida: [
                 "La Ceiba",
@@ -1319,7 +908,7 @@
 
             const depSelect = document.getElementById("inputDepartamento");
             const muniSelect = document.getElementById("inputMunicipio");
-
+            const select = document.getElementById("inputTipoServicio");
             // Llenar departamentos
             Object.keys(departamentos).forEach((dep) => {
               const option = document.createElement("option");
@@ -1342,25 +931,33 @@
                 muniSelect.disabled = true;
               }
             });
+
+            opciones.forEach((valor) => {
+              const option = document.createElement("option");
+              option.value = valor;
+              option.textContent = valor; 
+              select.appendChild(option);
+            });
           </script>
 
-          <div class="col-md-12">
-            <label for="inputDireccion" class="form-label">Dirección</label>
+          <div class="col-md-8">
+            <label for="inputDireccion" class="form-label text-light fw-bold">Dirección</label>
             <input
               type="text"
               class="form-control"
               id="inputDireccion"
-              name="direccion"
+              name="DIRECCIÓN"
               required
             />
           </div>
+                 
           <div class="col-12">
-            <label for="inputDescripcion" class="form-label">Descripción</label>
+            <label for="inputDescripcion" class="form-label text-light fw-bold">Descripción</label>
             <textarea
               class="form-control"
               id="exampleFormControlTextarea1"
-              rows="4"
-              name="descripcion"
+              rows="DESCRIPCIÓN"
+              name=""
               required
             ></textarea>
           </div>
@@ -1376,166 +973,186 @@
     <!-- Start Footer -->
     <footer class="" style="background-color: gray" id="tempaltemo_footer">
       <div class="container">
-        <div class="row">
-          <div class="col-12 m-auto">
-            <div class="w-100 my-3 border-top border-light"></div>
-          </div>
-          <div class="col-md-4 pt-5">
-            <img
-              class="img-fluid"
-              width="220"
-              height="110"
-              src="./logistica integral 1.2/assets/img/LogoPrincipal..png"
-              alt=""
-            />
-            <ul class="list-unstyled text-light footer-link-list">
-              <li>
-                <i class="fas fa-map-marker-alt fa-fw"></i>
-                Algun lugar 123
-              </li>
-              <li>
-                <i class="fa fa-phone fa-fw"></i>
-                <a class="text-decoration-none" href="tel:+504 9999-9999"
-                  >+504 9999-9999</a
-                >
-              </li>
-              <li>
-                <i class="fa fa-envelope fa-fw"></i>
-                <a
-                  class="text-decoration-none"
-                  href="mailto:logisticaintegral@company.com@company.com"
-                  >logisticaintegral@company.com</a
-                >
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-md-4 pt-5">
-            <h2 class="h2 text-light border-bottom pb-3 border-light">
-              Servicios
-            </h2>
-            <ul class="list-unstyled text-light footer-link-list">
-              <li>
-                <a class="text-decoration-none" href="#">Paqueteria Nacional</a>
-              </li>
-              <li>
-                <a class="text-decoration-none" href="#"
-                  >Paqueteria Internacional</a
-                >
-              </li>
-              <li><a class="text-decoration-none" href="#">Encargos</a></li>
-              <li><a class="text-decoration-none" href="#">Trasporte</a></li>
-              <li>
-                <a class="text-decoration-none" href="#"
-                  >Cobro contra Entrega</a
-                >
-              </li>
-              <li><a class="text-decoration-none" href="#">Tracker</a></li>
-              <li>
-                <a class="text-decoration-none" href="#"
-                  >Terminos y Condiciones</a
-                >
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-md-4 pt-5">
-            <h2 class="h2 text-light border-bottom pb-3 border-light">
-              Contacto
-            </h2>
-            <ul class="list-unstyled text-light footer-link-list">
-              <li>
-                <a class="text-decoration-none">Cortés Honduras: 21102</a>
-              </li>
-              <li>
-                <a class="text-decoration-none" href="#"
-                  >Whatsapp: +504 9999-9999</a
-                >
-              </li>
-              <li>
-                <a class="text-decoration-none" href="#"
-                  >consultas@logisticaintegral.com</a
-                >
-              </li>
-              <li><a class="text-decoration-none">Horario:</a></li>
-              <li>
-                <a class="text-decoration-none"
-                  >Lunes a Viernes 8:00am - 6:00pm</a
-                >
-              </li>
-              <li>
-                <a class="text-decoration-none">Sabados 8:00am - 3:00pm</a>
-              </li>
-            </ul>
-          </div>
+      <div class="row">
+        <div class="col-12 m-auto">
+          <div class="w-100 my-3 border-top border-bottom border-light"></div>
+        </div>
+        <div class="col-md-4 pt-5 footer-col">
+          <img
+        class="img-fluid footer-logo"
+        width="220"
+        height="110"
+        src="./logistica integral 1.2/assets/img/LogoPrincipal..png"
+        alt=""
+          />
+          <ul class="list-unstyled text-light footer-link-list">
+        <li>
+          <i class="fas fa-map-marker-alt fa-fw"></i>
+          Algun lugar 123
+        </li>
+        <li>
+          <i class="fa fa-phone fa-fw"></i>
+          <a class="text-decoration-none" href="tel:+504 9999-9999"
+            >+504 9999-9999</a
+          >
+        </li>
+        <li>
+          <i class="fa fa-envelope fa-fw"></i>
+          <a
+            class="text-decoration-none"
+            href="mailto:logisticaintegral@company.com@company.com"
+            >logisticaintegral@company.com</a
+          >
+        </li>
+          </ul>
         </div>
 
-        <div class="row text-light mb-4">
-          <div class="col-12 mb-3">
-            <div class="w-100 my-3 border-top border-light"></div>
-          </div>
-          <div class="col-auto me-auto">
-            <ul class="list-inline text-left footer-icons">
-              <li
-                class="list-inline-item border border-light rounded-circle text-center"
-              >
-                <a
-                  class="text-light text-decoration-none"
-                  target="_blank"
-                  href="http://facebook.com/"
-                  ><i class="fab fa-facebook-f fa-lg fa-fw"></i
-                ></a>
-              </li>
-              <li
-                class="list-inline-item border border-light rounded-circle text-center"
-              >
-                <a
-                  class="text-light text-decoration-none"
-                  target="_blank"
-                  href="https://www.instagram.com/"
-                  ><i class="fab fa-instagram fa-lg fa-fw"></i
-                ></a>
-              </li>
-              <li
-                class="list-inline-item border border-light rounded-circle text-center"
-              >
-                <a
-                  class="text-light text-decoration-none"
-                  target="_blank"
-                  href="https://twitter.com/"
-                  ><i class="fab fa-twitter fa-lg fa-fw"></i
-                ></a>
-              </li>
-              <li
-                class="list-inline-item border border-light rounded-circle text-center"
-              >
-                <a
-                  class="text-light text-decoration-none"
-                  target="_blank"
-                  href="https://www.linkedin.com/"
-                  ><i class="fab fa-linkedin fa-lg fa-fw"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
+        <!-- Agrupar Servicios y Contacto en una sola columna en desktop, y en dos columnas en mobile -->
+        <div class="col-md-8 pt-5 d-flex flex-column flex-md-row">
+          <div class="footer-col flex-fill pr-md-4" style="min-width:0;">
+        <h2 class="h2 text-light border-bottom pb-3 border-light">
+          Servicios
+        </h2>
+        <ul class="list-unstyled text-light footer-link-list">
+          <p class="text-decoration-none" href="#">Paqueteria Nacional</p>
+          <p class="text-decoration-none" href="#">Paqueteria Internacional</p>
+          <p class="text-decoration-none" href="#">Encargos</p>
+          <p class="text-decoration-none" href="#">Trasporte</p>
+          <p class="text-decoration-none" href="#">Cobro contra Entrega</p>
+          <p class="text-decoration-none" href="#">Tracker</p>
+        </ul>
+      </div>
+          <div class="footer-col flex-fill pl-md-4" style="min-width:0;">
+              <h2 class="h2 text-light border-bottom pb-3 border-light">
+                Contacto
+              </h2>
+                <ul class="list-unstyled text-light footer-link-list" style="margin: 0px;">
+                  <p class="text-decoration-none">Cortés Honduras: 21102</p>
+                  <p class="text-decoration-none">Horario:</p>
+                  <p class="text-decoration-none">Lunes a Viernes 8:00am - 6:00pm</p>
+                  <p class="text-decoration-none">Sabados 8:00am - 3:00pm</p>
+                  <li><a class="text-decoration-none" href="https://wa.me/50494529572">Whatsapp: +504 9999-9999</a></li>
+                  <li><a class="text-decoration-none" href="mailto:fransiscojoelr@gmail.com">consultas@logisticaintegral.com</a></li>
+                  <li><a class="text-decoration-none" href="#">Terminos y Condiciones</a></li>
+                </ul>
+            </div>
         </div>
+      </div>
+      <style>
+        @media (max-width: 767.98px) {
+          /* Agrupa Servicios y Contacto uno al lado del otro en móviles */
+          .footer-col.flex-fill {
+        width: 50% !important;
+        max-width: 50%;
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+        font-size: 14px;
+          }
+          .row > .col-md-8.d-flex {
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        padding-top: 1.5rem !important;
+        padding-bottom: 0 !important;
+          }
+        }
+      </style>
+
+      <div class="row text-light mb-4">
+        <div class="col-12 mb-3">
+        <div class="w-100 my-3 border-top border-bottom border-light">
+        </div>
+        </div>
+        <div class="col-auto me-auto">
+        <ul class="list-inline text-left footer-icons">
+          <li
+          class="list-inline-item border border-light rounded-circle text-center"
+          >
+          <a
+            class="text-light text-decoration-none"
+            target="_blank"
+            href="http://facebook.com/"
+            ><i class="fab fa-facebook-f fa-lg fa-fw"></i
+          ></a>
+          </li>
+          <li
+          class="list-inline-item border border-light rounded-circle text-center"
+          >
+          <a
+            class="text-light text-decoration-none"
+            target="_blank"
+            href="https://www.instagram.com/"
+            ><i class="fab fa-instagram fa-lg fa-fw"></i
+          ></a>
+          </li>
+          <li
+          class="list-inline-item border border-light rounded-circle text-center"
+          >
+          <a
+            class="text-light text-decoration-none"
+            target="_blank"
+            href="https://twitter.com/"
+            ><i class="fab fa-twitter fa-lg fa-fw"></i
+          ></a>
+          </li>
+          <li
+          class="list-inline-item border border-light rounded-circle text-center"
+          >
+          <a
+            class="text-light text-decoration-none"
+            target="_blank"
+            href="https://www.linkedin.com/"
+            ><i class="fab fa-linkedin fa-lg fa-fw"></i
+          ></a>
+          </li>
+        </ul>
+        </div>
+      </div>
       </div>
 
       <div class="w-100 bg-black py-1">
-        <div class="container">
-          <div class="row pt-2">
-            <div class="col-12">
-              <p class="text-left text-light">
-                Copyright &copy; 2025 Logistica Integral | Version 1.0<a
-                  rel="sponsored"
-                  href=""
-                  target="_blank"
-                ></a>
-              </p>
-            </div>
-          </div>
+      <div class="container">
+        <div class="row pt-2">
+        <div class="col-12">
+          <p class="text-left text-light">
+          Copyright &copy; 2025 Logistica Integral | Version 1.5<a
+            rel="sponsored"
+            href=""
+            target="_blank"
+          ></a>
+          </p>
+        </div>
         </div>
       </div>
+      </div>
+      <style>
+      @media (max-width: 767.98px) {
+        #tempaltemo_footer .footer-col {
+        font-size: 0.85rem;
+        padding-top: 1.5rem !important;
+        }
+        #tempaltemo_footer .footer-logo {
+        width: 120px !important;
+        height: auto !important;
+        }
+        #tempaltemo_footer h2.h2 {
+        font-size: 1.1rem;
+        padding-bottom: 0.7rem !important;
+        }
+        #tempaltemo_footer .footer-link-list li,
+        #tempaltemo_footer .footer-link-list a {
+        font-size: 0.95em !important;
+        }
+        #tempaltemo_footer .footer-link-list li,
+        #tempaltemo_footer .footer-link-list p {
+        font-size: 0.90em !important;
+        }
+        #tempaltemo_footer .footer-icons i {
+        font-size: 1em !important;
+        }
+      }
+      </style>
     </footer>
     <!-- End Footer -->
 
