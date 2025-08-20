@@ -70,8 +70,7 @@
               <div class="d-flex flex-column align-items-start mx-1 text-start">
                 <div class="ms-2">
                   <small class="text-muted fw-bold">WhatsApp</small><br />
-                  <a class="text-dark fw-bold" style="font-size: 1em"
-                    href="#">(+504)9999-9999</a>
+                  <a class="text-dark fw-bold" style="font-size: 1em" href="#">(+504)9999-9999</a>
                 </div>
               </div>
               <span class="icon-circle" style="margin-left: 10px; font-size: 1rem; background-color: #aab2bd"><i
@@ -318,13 +317,15 @@
       filter: invert(40%) sepia(90%) saturate(2000%) hue-rotate(180deg);
       /* cambia el color del SVG */
     }
+
     @media (max-width: 998px) {
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    width: 0.5rem;
-    height: 0.5rem;
-  }
-}
+
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        width: 0.5rem;
+        height: 0.5rem;
+      }
+    }
 
 
     /* Indicadores inactivos */
@@ -654,7 +655,7 @@
       <h4 class="text-light mb-3">SOLICITUD DE INFORMACIÓN</h4>
       <p class="text-light mb-4">Por favor completa el siguiente formulario para solicitar información o cotización
         sobre nuestros servicios logísticos.</p>
-      <form class="row g-3" action="https://formspree.io/f/mldlvqdn" method="POST">
+      <form class="row g-3" action="https://formspree.io/f/mldlvqdn" method="POST" id="miFormularioInfo">
         <div class="col-sm-12 col-md-4">
           <label for="inputNombre" class="form-label text-light fw-bold">Nombre</label>
           <input type="text" class="form-control" id="inputNombre" name="NOMBRE" required />
@@ -1074,6 +1075,27 @@
       </form>
     </div>
   </section>
+  <script>
+    const form = document.getElementById('miFormularioInfo');
+
+    form.addEventListener('submit', async function (event) {
+      event.preventDefault(); // evitamos que recargue la página
+
+      // Enviamos los datos a Formspree
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      });
+
+      if (response.ok) {
+        alert("Mensaje enviado con éxito, un agente se pondra en contacto con usted!");
+        form.reset(); // limpia todos los campos
+      } else {
+        alert("Hubo un error, intenta de nuevo");
+      }
+    });
+  </script>
 
   <!-- Start Footer -->
   <footer class="" style="background-color: gray" id="tempaltemo_footer">
@@ -1246,13 +1268,6 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
   <script src="//code.tidio.co/gwymf8auhnx1zcgfnfbefgmoz2fx9jtl.js" async></script>
-
-  <!-- <script>
-    document.getElementById("miFormulario").addEventListener("submit", function (event) {
-      event.preventDefault(); // evita recargar la página
-      alert("Formulario enviado con éxito 🚀");
-    });
-  </script> -->
   <!-- End Script -->
 </body>
 
